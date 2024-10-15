@@ -1,0 +1,182 @@
+[
+    {
+      "id": "1",
+      "question": "What is the time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(1)"
+      ],
+      "correctAnswer": "O(log n)",
+      "topic": "Algorithms"
+    },
+    {
+      "id": "2",
+      "question": "Which programming language is known as 'the mother of all languages'?",
+      "options": [
+        "C",
+        "Python",
+        "Java",
+        "Assembly"
+      ],
+      "correctAnswer": "C",
+      "topic": "Programming Languages"
+    },
+    {
+      "id": "3",
+      "question": "Which of the following is not a high-level programming language?",
+      "options": [
+        "Python",
+        "Java",
+        "C++",
+        "Assembly"
+      ],
+      "correctAnswer": "Assembly",
+      "topic": "Programming Languages"
+    },
+    {
+      "id": "4",
+      "question": "What does the acronym 'HTML' stand for?",
+      "options": [
+        "HyperText Markup Language",
+        "HyperText MultiLanguage",
+        "HyperText Machine Language",
+        "HyperText Markup Link"
+      ],
+      "correctAnswer": "HyperText Markup Language",
+      "topic": "Web Development"
+    },
+    {
+      "id": "5",
+      "question": "Which of the following is a key feature of Object-Oriented Programming (OOP)?",
+      "options": [
+        "Inheritance",
+        "Recursion",
+        "Iteration",
+        "Polymorphism"
+      ],
+      "correctAnswer": "Inheritance",
+      "topic": "Object-Oriented Programming"
+    },
+    {
+      "id": "6",
+      "question": "What is the purpose of the 'return' statement in a function?",
+      "options": [
+        "To terminate the function",
+        "To pass parameters",
+        "To return a value from the function",
+        "To declare a variable"
+      ],
+      "correctAnswer": "To return a value from the function",
+      "topic": "Programming Fundamentals"
+    },
+    {
+      "id": "7",
+      "question": "In which language is the Linux kernel written?",
+      "options": [
+        "Python",
+        "C",
+        "Java",
+        "Rust"
+      ],
+      "correctAnswer": "C",
+      "topic": "Operating Systems"
+    },
+    {
+      "id": "8",
+      "question": "What is the main purpose of a database index?",
+      "options": [
+        "To speed up data retrieval",
+        "To ensure data integrity",
+        "To store data permanently",
+        "To manage user permissions"
+      ],
+      "correctAnswer": "To speed up data retrieval",
+      "topic": "Databases"
+    },
+    {
+      "id": "9",
+      "question": "Which keyword is used to define a function in Python?",
+      "options": [
+        "function",
+        "def",
+        "method",
+        "func"
+      ],
+      "correctAnswer": "def",
+      "topic": "Python Programming"
+    },
+    {
+      "id": "10",
+      "question": "What is the output of the following code snippet: `print(2 ** 3)`?",
+      "options": [
+        "8",
+        "6",
+        "9",
+        "7"
+      ],
+      "correctAnswer": "8",
+      "topic": "Python Programming"
+    },
+    {
+      "id": "11",
+      "question": "Which algorithm is used to find the shortest path in a graph?",
+      "options": [
+        "Dijkstra's Algorithm",
+        "Quick Sort",
+        "Merge Sort",
+        "Bubble Sort"
+      ],
+      "correctAnswer": "Dijkstra's Algorithm",
+      "topic": "Algorithms"
+    },
+    {
+      "id": "12",
+      "question": "What is a closure in programming?",
+      "options": [
+        "A function that returns another function",
+        "A function that closes itself",
+        "A type of data structure",
+        "A method of encryption"
+      ],
+      "correctAnswer": "A function that returns another function",
+      "topic": "JavaScript"
+    },
+    {
+      "id": "13",
+      "question": "Which of the following is a CSS framework?",
+      "options": [
+        "Bootstrap",
+        "React",
+        "Node.js",
+        "Express"
+      ],
+      "correctAnswer": "Bootstrap",
+      "topic": "Web Development"
+    },
+    {
+      "id": "14",
+      "question": "What does SQL stand for?",
+      "options": [
+        "Structured Query Language",
+        "Simple Query Language",
+        "Standard Query Language",
+        "Sequential Query Language"
+      ],
+      "correctAnswer": "Structured Query Language",
+      "topic": "Databases"
+    },
+    {
+      "id": "15",
+      "question": "What is the purpose of the 'git' command?",
+      "options": [
+        "To manage version control",
+        "To compile code",
+        "To run tests",
+        "To deploy applications"
+      ],
+      "correctAnswer": "To manage version control",
+      "topic": "Version Control"
+    }
+  ]

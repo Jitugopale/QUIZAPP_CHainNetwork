@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
+body {
+  background-color: #f8f9fa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 600px;
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table {
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* App.css */
+
+/* General Styles */
+body {
+  background-color: #f8f9fa; /* Light background for better readability */
+  font-family: Arial, sans-serif; /* Clean, modern font */
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  max-width: 800px; /* Limit the width of the container */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+  background-color: white; /* White background for content area */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1, h2 {
+  color: #007bff; /* Primary color for headings */
+}
+
+h1 {
+  font-size: 2.5rem; /* Larger font size for the main heading */
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Spacing below the heading */
+}
+
+p {
+  font-size: 1.2rem; /* Slightly larger font for paragraphs */
+  color: #343a40; /* Darker color for better readability */
+  line-height: 1.6; /* Increased line height for easier reading */
+}
+
+/* Button Styles */
+.btn {
+  padding: 12px 20px; /* Increased padding for buttons */
+  font-size: 1.1rem; /* Slightly larger font size for buttons */
+  border-radius: 5px; /* Rounded corners for buttons */
+  width: 100%; /* Full-width button */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border: none; /* No border */
+  color: white; /* White text */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Secondary button color */
+  border: none; /* No border */
+  color: white; /* White text */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268; /* Darker shade on hover */
+}
+
+/* Margin Utilities */
+.mt-5 {
+  margin-top: 3rem; /* Spacing for the top margin */
+}
+
+.mt-4 {
+  margin-top: 2rem; /* Spacing for the top margin */
+}
+
+.mt-3 {
+  margin-top: 1.5rem; /* Spacing for top margin */
+}
+
+.mx-2 {
+  margin-left: 0.5rem; /* Spacing for left margin */
+  margin-right: 0.5rem; /* Spacing for right margin */
+}
+
+/* Text Alignment */
+.text-center {
+  text-align: center; /* Center text alignment */
+}
+
+/* Flexbox Utilities */
+.d-flex {
+  display: flex; /* Use flexbox for layout */
+}
+
+.justify-content-center {
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Form Styles */
+.alert {
+  margin-bottom: 15px; /* Space below alerts */
+}
+
+label {
+  font-weight: bold; /* Bold labels for better visibility */
+  color: #333; /* Darker color for labels */
+}
+
+.form-control {
+  border-radius: 5px; /* Rounded corners for inputs */
+  border: 1px solid #ced4da; /* Light border color */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.form-control:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+
+input {
+  border-radius: 5px; /* Rounded corners for inputs */
+  border: 1px solid #ced4da; /* Border color for inputs */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a glow effect on focus */
+}
+
+/* Link Styles */
+a {
+  color: #007bff; /* Primary color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for links */
 }
